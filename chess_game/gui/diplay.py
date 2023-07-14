@@ -3,7 +3,7 @@ from tkinter import Tk, Button
 root = Tk()
 root.title("Échiquier")
 root.geometry("700x700")
-white = 1;
+white = 1
 for i in range(8):
     if white==1:
         white=0

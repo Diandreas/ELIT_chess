@@ -74,6 +74,156 @@ for i in range(8):
             button["image"]=photo7
             button["width"]=65
             button["height"]=75
+        if i==1 and j==0:
+            image8=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo8=ImageTk.PhotoImage(image8)
+            button["image"]=photo8
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==1:
+            image9=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo9=ImageTk.PhotoImage(image9)
+            button["image"]=photo9
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==2:
+            image10=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo10=ImageTk.PhotoImage(image10)
+            button["image"]=photo10
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==3:
+            image11=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo11=ImageTk.PhotoImage(image11)
+            button["image"]=photo11
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==4:
+            image12=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo12=ImageTk.PhotoImage(image12)
+            button["image"]=photo12
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==5:
+            image13=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo13=ImageTk.PhotoImage(image13)
+            button["image"]=photo13
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==6:
+            image14=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo14=ImageTk.PhotoImage(image14)
+            button["image"]=photo14
+            button["width"]=65
+            button["height"]=75
+        if i==1 and j==7:
+            image15=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/pawn black.png")
+            photo15=ImageTk.PhotoImage(image15)
+            button["image"]=photo15
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==0:
+            image16=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/root black.png")
+            photo16=ImageTk.PhotoImage(image16)
+            button["image"]=photo16
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==7:
+            image17=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/root black.png")
+            photo17=ImageTk.PhotoImage(image17)
+            button["image"]=photo17
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==1:
+            image18=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/knight black.png")
+            photo18=ImageTk.PhotoImage(image18)
+            button["image"]=photo18
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==6:
+            image19=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/knight black.png")
+            photo19=ImageTk.PhotoImage(image19)
+            button["image"]=photo19
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==2:
+            image20=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/bishop black.png")
+            photo20=ImageTk.PhotoImage(image20)
+            button["image"]=photo20
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==5:
+            image21=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/bishop black.png")
+            photo21=ImageTk.PhotoImage(image21)
+            button["image"]=photo21
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==3:
+            image22=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/black.png")
+            photo22=ImageTk.PhotoImage(image22)
+            button["image"]=photo22
+            button["width"]=65
+            button["height"]=75
+        if i==0 and j==4:
+            image23=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/black/king black.png")
+            photo23=ImageTk.PhotoImage(image23)
+            button["image"]=photo23
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==0:
+            image24=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/root.png")
+            photo24=ImageTk.PhotoImage(image24)
+            button["image"]=photo24
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==7:
+            image25=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/root.png")
+            photo25=ImageTk.PhotoImage(image25)
+            button["image"]=photo25
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==1:
+            image26=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/knight.png")
+            photo26=ImageTk.PhotoImage(image26)
+            button["image"]=photo26
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==6:
+            image27=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/knight.png")
+            photo27=ImageTk.PhotoImage(image27)
+            button["image"]=photo27
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==2:
+            image28=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/bishop.png")
+            photo28=ImageTk.PhotoImage(image28)
+            button["image"]=photo28
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==5:
+            image29=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/bishop.png")
+            photo29=ImageTk.PhotoImage(image29)
+            button["image"]=photo29
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==3:
+            image30=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/queen.png")
+            photo30=ImageTk.PhotoImage(image30)
+            button["image"]=photo30
+            button["width"]=65
+            button["height"]=75
+        if i==7 and j==4:
+            image31=Image.open("C:/Users/isalph2/OneDrive/Documents/GitHub/ELIT_chess/chess_game/assets/model/piece_model_1/white/king.png")
+            photo31=ImageTk.PhotoImage(image31)
+            button["image"]=photo31
+            button["width"]=65
+            button["height"]=75
+        
+        
+        
+
+        
+        
         
 
 

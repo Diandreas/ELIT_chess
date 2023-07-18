@@ -5,15 +5,15 @@ root = Tk()
 root.title("Échiquier")
 root.geometry("700x700")
 
-# Créer des cadres
+
 chessboard_frame = Frame(root)
 chessboard_frame.pack(side="left", fill="both", expand=True)
 
 button_frame = Frame(root)
 button_frame.pack(side="right", fill="y")
 
-# Créer un échiquier
-colors = ["brown", "gray"]
+
+colors = ["brown", "#F9E3E5"]
 buttons = []
 photos = []
 for i in range(8):
@@ -27,11 +27,11 @@ for i in range(8):
     buttons.append(row)
     photos.append(photo_row)
 
-# Créer des boutons
+
 new_game_button = Button(button_frame, text="Nouvelle partie")
 new_game_button.pack()
 
-# Ajouter des images
+
 pieces = ["pawn", "rook", "knight", "bishop", "queen", "king"]
 for i in range(8):
     for j in range(8):

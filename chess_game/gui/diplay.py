@@ -1,17 +1,16 @@
-from tkinter import Tk, Button, Frame, PhotoImage
+from tkinter import Tk, Button, Frame
 from PIL import Image, ImageTk
+from events import handle_left_click
 
 root = Tk()
 root.title("Échiquier")
 root.geometry("700x700")
-
 
 chessboard_frame = Frame(root)
 chessboard_frame.pack(side="left", fill="both", expand=True)
 
 button_frame = Frame(root)
 button_frame.pack(side="right", fill="y")
-
 
 colors = ["brown", "#F9E3E5"]
 buttons = []
@@ -22,15 +21,14 @@ for i in range(8):
     for j in range(8):
         button = Button(chessboard_frame, text="", bg=colors[(i+j)%2], font=("TkDefaultFont", 8), width=10, height=5)
         button.grid(row=i, column=j)
+        button.bind("<Button-1>", handle_left_click)
         row.append(button)
         photo_row.append(None)
     buttons.append(row)
     photos.append(photo_row)
 
-
-new_game_button = Button(button_frame, text="Nouvelle partie")
+new_game_button = Button(button_frame, text="Nouvelle parties")
 new_game_button.pack()
-
 
 pieces = ["pawn", "rook", "knight", "bishop", "queen", "king"]
 for i in range(8):
